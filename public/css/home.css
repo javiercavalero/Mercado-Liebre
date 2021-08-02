@@ -47,6 +47,8 @@ header nav .lista2 {
         color: white;
         margin: 50%;
         padding: 10px;
+        border: solid 1px #39b54a;
+        border-radius: 5px;
     }
 
     

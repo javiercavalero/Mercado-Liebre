@@ -1,0 +1,24 @@
+footer{
+    height: 335px;
+    width: 384px;
+}
+footer section div {
+    font-size: 2em;
+    color: #1259c3;
+    
+}
+footer section {
+    text-align: center;
+    padding: 38px;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+footer section .parrafo {
+    color: rgba(0, 0, 0,0.5);
+}
+footer .copyrigth {
+    color: rgba(0, 0, 0, 0.5); 
+    padding: 0 0 20px 9px; 
+}

@@ -12,9 +12,9 @@ header{
 header .busqueda{
     text-align: left;
     background-color: white;
-    color: #ebebeb;
+    color: #666;
     border: solid 1px #666;
-    margin: 0 112px 4px 21px;
+    margin: 0 175px 4px 21px;
     border-radius: 3px;
     
 }

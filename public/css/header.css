@@ -1,7 +1,5 @@
 header{
     background-color: #EAC926;
-    height: 335px;
-    width: 384px;
 
 }
  header div img {
@@ -14,7 +12,7 @@ header .busqueda{
     background-color: white;
     color: #666;
     border: solid 1px #666;
-    margin: 0 175px 4px 21px;
+    margin: 0 119px 4px 21px;
     border-radius: 3px;
     
 }
@@ -50,7 +48,7 @@ header nav .lista2 {
         border: solid 1px #39b54a;
         border-radius: 5px;
         padding: 8px 0px;
-        margin: 2px 173px 0px 173px;
+        margin: 0 142px;
         text-align: center;
     }
 

@@ -1,6 +1,8 @@
 header{
     background-color: #EAC926;
-    height: 333px;
+    height: 335px;
+    width: 384px;
+
 }
  header div img {
     margin-right:168px;
@@ -48,7 +50,7 @@ header nav .lista2 {
         border: solid 1px #39b54a;
         border-radius: 5px;
         padding: 8px 0px;
-        margin: 2px 144px 0px 144px;
+        margin: 2px 173px 0px 173px;
         text-align: center;
     }
 

@@ -1,0 +1,55 @@
+header{
+    background-color: #EAC926;
+    height: 333px;
+}
+ header div img {
+    margin-right:168px;
+    padding: 25px 25px 12px 25px;
+    display: inline
+}
+header .busqueda{
+    text-align: left;
+    background-color: white;
+    color: #ebebeb;
+    border: solid 1px #666;
+    margin: 0 112px 4px 21px;
+    border-radius: 3px;
+    
+}
+
+header .lupa{
+    background-color: #ebebeb;
+    border: solid 1px #666;
+    border-radius: 3px;
+    margin-left: 21px;
+    padding: 2px 1px;
+    
+}
+header .icono {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+header nav .lista1 { 
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+       
+}
+header nav .lista2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding-bottom:15px ;
+    }
+    header .burger-menu{
+        background-color: #1259c3;
+        color: white;
+        border: solid 1px #39b54a;
+        border-radius: 5px;
+        padding: 8px 0px;
+        margin: 2px 144px 0px 144px;
+        text-align: center;
+    }
+
+    

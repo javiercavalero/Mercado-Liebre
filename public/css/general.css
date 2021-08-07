@@ -1,3 +1,10 @@
+:root{
+    --header-color: #EAC926;
+    --search-color:#666;
+    --lupa-color: #ebebeb;
+    --blue-menu-color: #1259c3;
+    --green-color: #39b54a;
+}
 *{
     box-sizing: border-box;
     padding: 0;

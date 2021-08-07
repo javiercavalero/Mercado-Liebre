@@ -1,5 +1,5 @@
 header{
-    background-color: #EAC926;
+     background-color: var(--header-color) ;
 
 }
  header div img {
@@ -10,16 +10,16 @@ header{
 header .busqueda{
     text-align: left;
     background-color: white;
-    color: #666;
-    border: solid 1px #666;
-    margin: 0 119px 4px 21px;
+    color: var(--search-color);
+    border: solid 1px var(--search-color);
+    margin: 0 92px 4px 21px;
     border-radius: 3px;
     
 }
 
 header .lupa{
-    background-color: #ebebeb;
-    border: solid 1px #666;
+    background-color: var(--lupa-color);
+    border: solid 1px var(--search-color);
     border-radius: 3px;
     margin-left: 21px;
     padding: 2px 1px;
@@ -43,9 +43,9 @@ header nav .lista2 {
     padding-bottom:15px ;
     }
     header .burger-menu{
-        background-color: #1259c3;
+        background-color: var(--blue-menu-color);
         color: white;
-        border: solid 1px #39b54a;
+        border: solid 1px var(--green-color);
         border-radius: 5px;
         padding: 8px 0px;
         margin: 0 142px;

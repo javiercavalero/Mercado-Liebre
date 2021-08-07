@@ -8,10 +8,6 @@ main section .titulo{
 
 }
 
-main section article img {
-    height: 190px;
-    width: 190px;
-}
 main section article p, h3 {
     font-size: 16px;
 }

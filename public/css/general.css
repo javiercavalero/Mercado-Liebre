@@ -18,3 +18,7 @@ li {
     list-style: none;
     
 }
+body {
+    background-color: var(--lupa-color);
+    width:150%;
+}

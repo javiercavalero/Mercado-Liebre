@@ -1,3 +1,9 @@
+footer{ 
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin:2%;
+    
+}
 
 footer section div {
     font-size: 2em;
@@ -6,11 +12,9 @@ footer section div {
 }
 footer section {
     text-align: center;
-    padding: 38px;
+    padding: 6% 12%;
 }
-
-footer {
-    font-family: 'Roboto', sans-serif;
+    
 }
 footer section .parrafo {
     color: rgba(0, 0, 0,0.5);

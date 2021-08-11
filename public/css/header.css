@@ -35,12 +35,14 @@ header nav .lista1 {
     padding: 5% 0;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    display:none;
        
 }
 header nav .lista2 {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     padding-bottom:5% ;
+    display:none;
     }
     header .burger-menu{
         background-color: var(--blue-menu-color);

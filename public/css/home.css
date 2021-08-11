@@ -57,4 +57,42 @@ main section .titulo {
 }
 
 
+/* TABLET */
+@media (min-width: 361px) {
+    body{
+        box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+    }
+    header nav .lista1 { 
+        display:inline-block
+        
+           
+    }
+    header nav .lista2 {
+        display: inline-block;
+        
+        }
+        header .burger-menu{
+            display:none;
+        }
+    
+}
 
+/* DESKTOP */
+@media (min-width: 769px) {
+    body{
+        box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+    }
+    header nav .lista1 { 
+        display:inline-block
+        
+           
+    }
+    header nav .lista2 {
+        display: inline-block;
+        
+        }
+        header .burger-menu{
+            display:none;
+        }
+    
+}

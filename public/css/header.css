@@ -3,16 +3,16 @@ header{
 
 }
  header div img {
-    margin-right:56%;
-    padding: 6% 6% 4% 5%;
-    display: inline
+    margin:0% 43% 0 3%;
+    padding: 6% 2% 4% 5%;
+    display: inline-block;
 }
 header .busqueda{
     text-align: left;
     background-color: white;
     color: var(--search-color);
     border: solid 1px var(--search-color);
-    margin: 0% 50% 1% 4.3%;
+    margin: 0% 31% 1% 4.3%;
     border-radius: 3px;
     
 }
@@ -27,7 +27,8 @@ header .lupa{
 }
 header .icono {
     font-size: 12px;
-    margin-left: 11%;
+    text-align: center;
+    padding-top: 4%;
     
 }
 header nav .lista1 { 
@@ -46,7 +47,7 @@ header nav .lista2 {
         color: white;
         border: solid 1px var(--green-color);
         border-radius: 5px;
-        padding: 8px 0px;
+        padding: 1% 0px;
         margin: 0 45%;
         text-align: center;
     }

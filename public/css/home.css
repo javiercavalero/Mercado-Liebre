@@ -11,8 +11,13 @@ main .banner img {
 
 main section article div img{
     width: 90%;
-    margin: 0px 5%;
+    margin: 0px 5%; 
     
+}
+main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 main section article .seccion {
@@ -22,24 +27,41 @@ main section article .seccion {
     padding: 15px;
     border-right: solid 1px var(--lupa-color);
     margin: 0px 5%;
+    position: relative;
 }
 
 main section article .seccion i {
     border:solid 1px var(--green-color) ;
-    border-radius: 50%;
     color: var(--green-color);
-    padding: 12px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+}
+main section article .seccion .precios-discount {
+     display: flex;
 }
 
-
 main section article .discount {
+    font-size: 18px;
     color: var(--green-color);
-    text-transform: lowercase
-    ;
+    text-transform: uppercase;
+    flex-grow: 0.7;
+   
+}
+main section article .precios{
+font-size: 18px; 
+flex-grow: 0.3;
 }
 
 main section article .articulo {
-    padding-top:15px ;
     color: rgba(0, 0, 0, 0.5);
     display: none;
 }
@@ -53,22 +75,49 @@ main section .titulo {
     margin-left: 15px;
     padding-bottom: 15px;
     font-size: 24px;
+    width: 100%;
 }
 
 
 
 /* TABLET */
-@media (min-width: 361px) {
-    main section article img {
-        box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.5)
+@media (min-width: 768px) {
+   
+    main section article {
+        width: 45%;
+        box-shadow : 0px 0px 10px rgb(100, 100, 100);
+        
     }
+    header .logo {
+        width: 32%;
+    }
+    header .logo-search .busqueda{
+        width: 32%;
+    } 
+    header .icono {
+       
+        width: 32%;
+        
+    }
+    header nav {
+        display: flex;
+       justify-content: space-between;
+    }
+     header nav ul {
+        display: flex;
+     }
+     header nav ul li {
+         margin: 0 10px;
+     }
+    
+
     header nav .lista1 { 
-        display:inline-block
+        display: flex;
         
            
     }
     header nav .lista2 {
-        display: inline-block;
+        display: flex;
         
         }
         header .burger-menu{
@@ -83,24 +132,52 @@ main section .titulo {
 
 
 /* DESKTOP */
-@media (min-width: 769px) {
-    main section article img {
-        box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.5)
-    }
-    header nav .lista1 { 
-        display:inline-block
+@media (min-width: 1024px) {
+    main section article {
+        box-shadow : 0px 0px 10px rgb(100, 100, 100);
+        width: 20%;
         
-           
-    }
-    header nav .lista2 {
-        display: inline-block;
         
-        }
+    }
+}
+header nav {
+    display: flex;
+   justify-content: space-between;
+   
+}
+ header nav ul {
+    display: flex;
+ }
+ header nav ul li {
+     margin: 10px 10px;
+ }
+
+
+header nav .lista1 { 
+    display: flex;
+    
+       
+}
+header nav .lista2 {
+    display: flex;
+    
+    }
         header .burger-menu{
             display:none;
         }
         main section article .articulo {
     
             display: inline-block;
+    
+}
+header .logo {
+    width: 32%;
+}
+header .logo-search .busqueda{
+    width: 32%;
+} 
+header .icono {
+   
+    width: 32%;
     
 }

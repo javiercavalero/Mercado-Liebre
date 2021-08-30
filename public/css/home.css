@@ -5,6 +5,14 @@ main {
 main .banner img {
    width:100%
 }
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main section h4 {
+    width: 100%;
+}
 
 
 
@@ -22,20 +30,36 @@ main section article .seccion {
     padding: 15px;
     border-right: solid 1px var(--lupa-color);
     margin: 0px 5%;
+    position: relative;
 }
 
 main section article .seccion i {
     border:solid 1px var(--green-color) ;
     border-radius: 50%;
     color: var(--green-color);
-    padding: 12px;
+    padding: 5px;
+    font-size: 16px;
+    width: 30px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+main section article .precio-discount {
+    display: flex;
+}
+main section article .precio-discount .precios{
+    flex-grow: 0.3;
+    font-size: 18px;
 }
 
 
 main section article .discount {
     color: var(--green-color);
-    text-transform: lowercase
-    ;
+    font-size: 16px;
+    flex-grow: 0.7;
+    text-transform: uppercase;
 }
 
 main section article .articulo {
@@ -58,49 +82,85 @@ main section .titulo {
 
 
 /* TABLET */
-@media (min-width: 361px) {
+@media (min-width: 768px) {
     main section article img {
         box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.5)
     }
-    header nav .lista1 { 
-        display:inline-block
-        
-           
-    }
-    header nav .lista2 {
-        display: inline-block;
-        
-        }
+  
         header .burger-menu{
             display:none;
         }
+
+            header .logo-search{
+                justify-content: space-between;
+            }
+            header .logo  {
+                width: 32%;
+            }
+            header .busqueda{
+                width: 32%;
+            }
+            header .logo-search .icono{
+                width: 32%;
+            }
+            header nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            header nav {
+                display: flex;
+                margin-top: 10px;
+                
+            }header nav ul li {
+                margin:0 10px;
+            }
+
+            header nav .lista1{
+                display: flex;
+                padding: 0px;
+                font-size: 12px;
+            }
+             header nav .lista2{
+                 display: flex;
+                 padding: 0px;
+                 font-size: 12px;
+             }
+    }
     main section article .articulo {
     
     display: inline-block;
 
 }
+main section article {
+    width: 45%;
 }
 
 
 /* DESKTOP */
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
     main section article img {
         box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.5)
     }
-    header nav .lista1 { 
-        display:inline-block
-        
-           
+    header nav .lista1{
+        display: flex;
+        padding: 0px;
+        font-size: 12px;
     }
-    header nav .lista2 {
-        display: inline-block;
-        
-        }
+     header nav .lista2{
+         display: flex;
+         padding: 0px;
+         font-size: 12px;
+     }
         header .burger-menu{
             display:none;
         }
         main section article .articulo {
     
-            display: inline-block;
-    
-}
+            display: inline-block; 
+        }
+        main section article{
+            width: 23%;
+            justify-content: space-between;
+        }
+        }

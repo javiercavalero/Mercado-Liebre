@@ -2,29 +2,28 @@ header{
      background-color: var(--header-color) ;
 
 }
- header div img {
-    margin:0% 43% 0 3%;
-    padding: 6% 2% 4% 5%;
-    display: inline-block;
+header .logo-search {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ header .logo  {
+    width: 47%;
+    margin: 13px 2px 0px 15px;
 }
 header .busqueda{
-    text-align: left;
-    background-color: white;
-    color: var(--search-color);
-    border: solid 1px var(--search-color);
-    margin: 0% 31% 1% 4.3%;
-    border-radius: 3px;
-    
+    width: 47%;
+    margin-top: 28px;
+}
+header .logo-search .busqueda input {
+    width: 80%;
 }
 
-header .lupa{
-    background-color: var(--lupa-color);
-    border: solid 1px var(--search-color);
-    border-radius: 3px;
-    margin-left: 4.3%;
-    padding: 0% 0.4%;
-    
+header .busqueda button i {
+    background-color: white;
 }
+
+
 header .icono {
     font-size: 12px;
     text-align: center;

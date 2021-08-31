@@ -6,6 +6,8 @@ const port = 3030;
 app.use(express.static("public"));
 
 app.get("/",(req,res)=> res.sendFile(path.join(__dirname,"views","index.html")));
+app.get("/register", (req,res)=> res.sendFile(path.join(__dirname,"views","register.html")));
+app.get("/login", (req,res) => res.sendfile(path.join(__dirname,"views","login.html")));
 
 
 app.listen(port, ()=> console.log(`servidor corriendo en http://localhost:${port}`));

@@ -22,3 +22,22 @@ body {
     background-color: var(--lupa-color);
     width:100%;
 }
+
+/* input y botones */
+
+input, button {
+    padding: 15px;
+    border-radius: 5px ;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+
+}
+
+.btn-rojo{
+    background-color: red;
+}
+.btn-verde{
+    background-color: var(--green-color);
+}

@@ -1,0 +1,47 @@
+/* contenedor general */
+
+.register-login .contenedor {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 375px;
+}
+
+.register-login .contenedor .conteiner-input{
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+}
+ input, button {
+    padding: 10px;
+    border-radius: 5px ;
+    border: none;
+}
+/* inputs */
+
+.register-login .contenedor .conteiner-input .radio{
+margin: 0 20px;
+}
+
+.register-login .contenedor .conteiner-input .check-box {
+    margin: 0 15px;
+
+}
+
+input.text {
+    width: 100%;
+}
+
+
+
+/* contenedores de botones */
+
+.register-login .contenedor .conteiner-buttons{
+
+display: flex;
+justify-content: space-around;
+margin: 30px 0;
+
+}
+.register-login .contenedor .conteiner-buttons button{
+    color: white;
+}

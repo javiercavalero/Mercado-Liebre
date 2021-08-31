@@ -70,6 +70,7 @@ main section article .articulo {
 
 main section article {
     margin: 14px 0px;
+    width: 90%;
 }
 
 main section .titulo {
@@ -126,7 +127,7 @@ main section .titulo {
                  padding: 0px;
                  font-size: 12px;
              }
-    }
+    
     main section article .articulo {
     
     display: inline-block;
@@ -134,7 +135,7 @@ main section .titulo {
 }
 main section article {
     width: 45%;
-}
+} }
 
 
 /* DESKTOP */

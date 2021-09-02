@@ -4,6 +4,7 @@
     --lupa-color: #ebebeb;
     --blue-menu-color: #1259c3;
     --green-color: #39b54a;
+    --azul:#03264c;
 }
 *{
     box-sizing: border-box;
@@ -38,6 +39,11 @@ button:hover{
 .btn-rojo{
     background-color: red;
 }
-.btn-verde{
-    background-color: var(--green-color);
+.btn-celeste{
+    background-color: var(--blue-menu-color);
+    transition: all linear .3s;
+}
+
+.btn-celeste:hover{
+    background-color: #0022AA
 }

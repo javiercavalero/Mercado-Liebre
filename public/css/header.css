@@ -1,5 +1,6 @@
 header{
      background-color: var(--header-color) ;
+     height: 130px;
 
 }
 header .logo-search {
@@ -26,13 +27,15 @@ header .busqueda button {
     border: none;
     padding: 5px;
     background-color: white;
+    position:relative;
+    right: 25px;
 }
 
 
 header .icono {
     font-size: 12px;
     text-align: center;
-    padding-top: 4%;
+    padding: 6px 52px;
     
 }
 header nav .lista1 { 
@@ -54,7 +57,7 @@ header nav .lista2 {
         border: solid 1px var(--green-color);
         border-radius: 5px;
         padding: 1% 0px;
-        margin: 0 45%;
+        margin: 3% 45%;
         text-align: center;
     }
 

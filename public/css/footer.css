@@ -5,15 +5,23 @@ footer{
     
 }
 
-footer section div {
+
+
+footer section i {
     font-size: 2em;
     color: var(--blue-menu-color);
-    
+transition: all ease 0.3s;
+    }
+
+footer section i:hover{
+    color: var(--azul);
+
 }
 footer section {
     text-align: center;
     padding: 6% 12%;
 }
+
     
 
 footer section .parrafo {
@@ -22,4 +30,18 @@ footer section .parrafo {
 footer .copyrigth {
     color: rgba(0, 0, 0, 0.5); 
     padding: 0 0 20px 9px; 
+}
+
+@media (min-width:1024px) {
+    footer .conteiner-footer {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer .conteiner-footer section{
+width: 30%;
+padding: 0 25px;
+margin: 20px 0;
+
+    }
 }

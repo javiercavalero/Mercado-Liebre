@@ -45,7 +45,13 @@ main section article .seccion i {
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: all ease .3s;
 }
+main section article:hover .seccion i{
+box-shadow: o o 5px var(--green-color);
+transform: rotate(360deg);
+}
+
 main section article .precio-discount {
     display: flex;
 }
@@ -62,15 +68,25 @@ main section article .discount {
     text-transform: uppercase;
 }
 
-main section article .articulo {
-    padding-top:15px ;
-    color: rgba(0, 0, 0, 0.5);
-    display: none;
+main section article .seccion .articulo {
+    height: 0;
+    transition: all ease .3s;
+    overflow: hidden;
+    color: var(--search-color);
+    
+}
+main section article:hover .seccion .articulo {
+height: 20px;
+margin-top: 10px; 
 }
 
 main section article {
-    margin: 14px 0px;
-    width: 90%;
+    margin: 10px 0px;
+   background-color: white;
+   transition: all ease .3s;
+}
+main section article:hover{
+    box-shadow : 0px 0px 10px rgb(100, 100, 100);
 }
 
 main section .titulo {
@@ -84,9 +100,7 @@ main section .titulo {
 
 /* TABLET */
 @media (min-width: 768px) {
-    main section article img {
-        box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.5)
-    }
+  
   
         header .burger-menu{
             display:none;
@@ -140,9 +154,7 @@ main section article {
 
 /* DESKTOP */
 @media (min-width: 1024px) {
-    main section article img {
-        box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.5)
-    }
+ 
     header nav .lista1{
         display: flex;
         padding: 0px;
